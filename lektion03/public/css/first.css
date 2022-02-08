@@ -1,0 +1,12 @@
+p {
+    color: blue;
+    font-size: 10px;
+}
+
+h1, h2, h3 {
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-size: 10px;
+}
+

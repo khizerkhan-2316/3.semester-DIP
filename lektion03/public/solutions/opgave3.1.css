@@ -1,0 +1,14 @@
+ol {
+    border: 3px solid red;
+    width: 25%;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+}

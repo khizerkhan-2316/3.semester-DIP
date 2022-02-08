@@ -1,0 +1,24 @@
+img {
+    height: 100px;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table, td {
+    border: 3px solid blue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h1 {
+    color: blue;
+}

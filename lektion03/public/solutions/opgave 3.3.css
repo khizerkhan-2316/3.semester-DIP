@@ -1,0 +1,19 @@
+table {
+	border-collapse: collapse;
+	vertical-align: middle;
+	width: 70px;
+}
+
+td {
+	border: 2px solid blue;	
+	width: 20px;
+	text-align: center;
+}
+
+img {width: 110px;}
+
+.grid {
+	display: grid;
+	gap: 5px;
+	grid-template-columns: 1fr 2fr;
+}
