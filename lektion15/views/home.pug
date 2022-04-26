@@ -1,0 +1,22 @@
+doctype html 
+html(lang="en")
+
+    head
+        title homepage
+        script(type="text/javascript", src="scripts/home.js" defer) 
+        link(rel="stylesheet", href="css/home.css")
+
+    body
+<!-- PUG virker med indentering -->
+         div.mainContainer
+            h1 Hello World
+            p   this is a paragprah tag
+                and this is a new line
+
+            input(type="password" required=true)
+
+            - const myClasses = ["class1", "class2", "class3"]
+
+            div.test(class=myClasses)
+
+

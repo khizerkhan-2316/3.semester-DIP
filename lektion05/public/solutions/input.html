@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    0
+    <script src="input.js" defer></script>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+<label>
+    Opgave 5.1
+    <input id="inp" type="text"/>
+</label>
+<div id="error"></div>
+
+<label>
+    Opgave 5.2
+    <input id="inp2" type="text"/>
+</label>
+<div id="error2"></div>
+
+
+<div id="formcontainer">
+
+    <form action="http://localhost/hest" method="post">
+        <label>
+            username
+        </label>
+        <input name="userName" id="inpUserName" type="text"/>
+        <div></div>
+        <div id="errorUserName"></div>
+        <label>
+            password
+        </label>
+        <input id="inpPassword" name="password" type="password"/>
+        <div></div>
+        <div id="errorPassword"></div>
+        <label>
+            email
+        </label>
+        <input id="inpEmail" name="email" type="email"/>
+        <div></div>
+        <div id="errorEmail"></div>
+        <label>
+            gender
+        </label>
+        <div id="gender">
+            <label> male<input name="gender" type="radio"></label>
+            <label>female<input name="gender" type="radio"></label>
+            <label>none<input name="gender" type="radio" checked></label>
+        </div>
+        <label>Indkomst</label>
+        <Select name="income">
+            <option value="1">0-20000</option>
+            <option value="2">20000-40000</option>
+            <option value="3">40000-100000</option>
+            <option value="4">100000-400000</option>
+            <option value="5">400000-</option>
+        </Select>
+        <label>send me</label>
+        <div>
+            <label>
+                advertisement
+                <input type="checkbox" name="sendMe">
+            </label>
+            <label>
+                info
+                <input type="checkbox" name="sendMe">
+            </label>
+            <label>
+                news
+                <input type="checkbox" name="sendMe">
+            </label>
+        </div>
+        <button>Submit the shit</button>
+    </form>
+</div>
+
+</body>
+</html>

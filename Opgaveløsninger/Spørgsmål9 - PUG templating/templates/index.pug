@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Express-app 3
+        script(src='index.js' defer)
+    body
+        ul
+            each element in list
+                li(value=element)  #{element.text}
+        button(id="push") push
+        input(id="newText" type="text" placeholder="indtast opgave")
+        div#error

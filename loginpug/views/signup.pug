@@ -1,0 +1,22 @@
+doctype html(lang="en")
+html 
+    head
+        title Sign Up
+        script(src="/script/signupform.js" defer)
+        link(rel="stylesheet", href="css/signup.css")
+
+    body
+    
+        div.MainContainer
+            div.sign-up-container
+                  form
+                    h1 Sign Up
+                    label(for="username") Username:
+                    input(type="text", name="username" required placeholder="*")
+                    label(for="password") Password:
+                    input(type="text", name="password" required placeholder="*")
+                    button(type="submit") Submit
+
+
+    
+

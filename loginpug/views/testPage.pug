@@ -1,0 +1,43 @@
+doctype html
+html
+    include mixins/list
+    head
+        meta(charset="UTF-8")
+        title pug login
+        script(src="/script/main.js" defer)
+        link(rel='stylesheet', href='/css/main.css', type='text/css' )
+
+    body
+        include includes/header
+
+        if message
+            h1 #{message}
+        else
+            h2 No message
+
+        ul
+            each item,index in  listData
+                li=index + ":" + item
+
+
+        case friends
+            when 0
+                p you have no friends
+            when 1
+                p you have a friend
+            default
+                p you have #{friends} friends
+
+        - const odd=age%2
+        if odd
+            p you have odd age
+        else
+            p you have even age
+
+        +list(listData)
+
+        p
+            pre
+                |kjuidyhgkjh
+                |ælkjsælkjsælkj
+

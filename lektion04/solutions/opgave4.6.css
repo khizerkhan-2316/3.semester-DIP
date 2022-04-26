@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 3px solid blue;
+}
+
+td:nth-child(2){
+    text-align: right;
+}

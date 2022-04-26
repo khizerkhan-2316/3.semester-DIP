@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title Express-app 4
+        script(src='index.js' defer)
+    body
+        ul(id="top")
+            each dep in departments
+                li(id=dep.id)  #{dep.name}
+        ul(id="bottom")
+            each dep in departments
+                li(id=`list${dep.id}` hidden) #{dep.employees}
+
+
+
+

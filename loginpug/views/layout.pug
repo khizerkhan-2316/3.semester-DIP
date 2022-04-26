@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title pug market
+        block scripts
+            script(src="/script/main.js" defer)
+
+        block css
+            link(rel='stylesheet', href='/css/main.css', type='text/css' )
+
+    body
+        div#root
+            include includes/header.pug
+            div.main
+                block content
+            footer.footer
+                p Copyright &copy; 2021

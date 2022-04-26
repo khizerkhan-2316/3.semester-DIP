@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title pug login
+        script(src="/script/main.js" defer)
+        link(rel='stylesheet', href='/css/main.css', type='text/css' )
+    body
+        div#root
+            div#loginDiv
+                div.inputField
+                    div User name
+                    input#loginName(type='text',placeholder='user name')
+                div.inputField
+                    div Password
+                    input#loginPassword(type='password' placeholder='password')
+                div#buttonDiv
+                    button#loginButton Login
+                div#error

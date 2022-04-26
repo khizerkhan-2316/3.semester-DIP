@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+  padding: 20px;
+  min-width: 20%;
+}
+
+th {
+  background-color: orange;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.add_product_container {
+  width: 81%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_product {
+  width: 50%;
+  height: 70%;
+  background-color: lightblue;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}

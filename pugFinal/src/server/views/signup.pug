@@ -1,0 +1,18 @@
+extends layout
+block append scripts
+    script(src='js/auth.js' defer)
+
+block append styles
+    link(rel='stylesheet' href='css/auth.css' type='text/css')
+
+block content
+    div.credentials
+        label user name
+        input#userNameInp(type='text' placeholder='user name')
+        label password
+        input#passwordInp(type='password' placeholder='password')
+        div.credentialsButtonArea
+            button.credentialsButton(id="credSignupBtn") signup
+        div.credentialsErrorArea
+
+

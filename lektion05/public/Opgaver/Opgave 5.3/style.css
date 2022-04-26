@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(209, 23%, 22%);
+}
+
+form {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  background-color: hsl(0, 0%, 100%);
+  overflow: scroll;
+}
+
+.content-container {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.content-container h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+input {
+  width: 90%;
+  padding: 15px 20px 15px 20px;
+  border: none;
+  outline: none;
+  font-family: var(--text-font-family);
+  font-size: 17px;
+  border-radius: 5px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.Error-modal {
+  margin-top: 30px;
+  color: red;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#gender-container h2 {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#gender-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gender-container {
+  width: auto;
+}
+.gender-container input {
+  width: auto;
+  margin: 0px 5px 0px 5px;
+}
+
+#accept-term-container h2 {
+  width: 100%;
+}
+
+#accept-term-container {
+  display: flex;
+  justify-content: center;
+}
+
+#accept-term-container input {
+  width: auto;
+}
+
+.accept-options-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+button {
+}

@@ -1,0 +1,15 @@
+extends layout
+
+block append scripts
+    script(src="/script/signupform.js" defer)
+
+block append css
+    link(rel='stylesheet', href='/css/signup.css', type='text/css' )
+
+block content
+    div.signupOuter
+        div.signup
+            input(id="signupName" ,type="text" placeholder="user name")
+            input(id="signupEmail" ,type="text" placeholder="email")
+            input(id="signupPassword" ,type="password" placeholder="password")
+            button#signupForm Signup

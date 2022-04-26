@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title Express-app 4
+        script(src='index.js' defer)
+    body
+    h1 Afdelinger:
+    ul(id="departments")
+         each department in departmensMap? departmensMap : []
+                li(value = department) #{department.name} 
+    ul(id="list")

@@ -1,0 +1,21 @@
+#error, #error2, #errorUserName, #errorPassword, #errorEmail {
+    color: red;
+}
+
+#formcontainer {
+    margin: 3vw;
+    border: #293f50 solid;
+    padding: 3vw;
+}
+
+#formcontainer > form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#gender {
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: 1fr 1fr 1fr;
+}

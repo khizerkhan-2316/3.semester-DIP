@@ -1,0 +1,13 @@
+div#header
+    div#icon
+        a(href="/")
+            img(src='/image/apple-map.png')
+
+    if !loggedIn
+        button#loginLink login
+
+    if !loggedIn
+        button#signupLink signup
+
+    if loggedIn
+        button#logoutLink logout

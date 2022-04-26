@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Opgave 5.3</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form method="post" action="https://jsonplaceholder.typicode.com/posts">
+        <div class="content-container">
+          <h2>Username:</h2>
+          <input
+            type="text"
+            name="username"
+            required
+            placeholder="Enter username"
+          />
+          <div class="Error-modal" id="error"></div>
+        </div>
+
+        <div class="content-container">
+          <h2>Password:</h2>
+          <input
+            type="password"
+            name="password"
+            required
+            placeholder="Indtast tekst"
+          />
+          <div class="Error-modal" id="error"></div>
+        </div>
+
+        <div class="content-container">
+          <h2>Email:</h2>
+          <input
+            name="email"
+            type="email"
+            required
+            placeholder="Indtast tekst"
+          />
+          <div class="Error-modal" id="error"></div>
+        </div>
+
+        <div class="content-container" id="gender-container">
+          <h2>Gender:</h2>
+
+          <div class="gender-container">
+            <label for="gendermale">Male</label>
+            <input type="radio" name="gender" value="male" id="gendermale" />
+            <label for="genderwoman">Woman</label>
+            <input type="radio" name="gender" value="woman" id="genderwoman" />
+            <div class="Error-modal" id="error"></div>
+          </div>
+        </div>
+
+        <div class="content-container" id="accept-term-container">
+          <h2>Accept:</h2>
+
+          <div class="accept-options-container">
+            <label for="accept">Reklamer</label>
+            <input type="checkbox" name="accept" value="Reklamer" />
+            <label for="accept">Nyheder</label>
+            <input type="checkbox" name="accept" value="Nyheder" />
+
+            <label for="accept">Tilbud</label>
+            <input type="checkbox" name="accept" value="Tilbud" />
+            <div class="Error-modal" id="error"></div>
+          </div>
+        </div>
+
+        <div class="content-container" id="income-container">
+          <h2>Income:</h2>
+
+          <div class="income-option-container">
+            <label for="income">Pick a income</label>
+            <select name="income" id="income" required>
+              <option value="20000">0 - 20000</option>
+              <option value="100000">20000 - 10000</option>
+              <option value="400000">100000 - 400000</option>
+              <option value="400000+">400000+</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

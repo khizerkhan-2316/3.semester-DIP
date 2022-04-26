@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container,
+.comment-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userContainer,
+.comment-sub-container {
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+}

@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon ./server/server.js",
+    "start": "node ./server/server.js"
+  }
+}

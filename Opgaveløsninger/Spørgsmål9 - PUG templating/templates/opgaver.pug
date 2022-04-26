@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title Opgaver
+        script(src='index.js' defer)
+    body
+        ul 
+            each task in tasks? tasks : []
+                li(value = task) #{task.name}
+        
+        h1 Number of tasks: #{numberOfTasks}
+        input(type="text" placeholder="Enter a task")
+        button(type="button") Add task

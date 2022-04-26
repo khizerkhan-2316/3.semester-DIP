@@ -1,0 +1,39 @@
+#loginDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: solid;
+    height: 300px;
+}
+
+.inputField {
+    margin: 10px;
+    width: 60%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.inputField > :nth-child(1) {
+    font-style: oblique;
+}
+
+#buttonDiv {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+}
+
+#error {
+    color: red;
+}
+
+#header {
+    width: 100%;
+    display: grid;
+    height: 20%;
+    grid-template-columns: 5fr 1fr 1fr;
+}

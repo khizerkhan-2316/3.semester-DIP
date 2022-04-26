@@ -1,0 +1,46 @@
+
+html, body, #layout {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    background-color: rgba(227,231,227,0.31);
+
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+    gap: 1rem;
+    background-color: white;
+    height: 10%;
+    align-items: center;
+    padding-right: 1rem;
+    box-shadow: 4px 4px 8px #658888;
+    margin-bottom: 5px;
+}
+
+#icon {
+    margin-left: 1rem;
+    height: 100%
+}
+
+#icon > a > img {
+    height: 3.5rem;
+}
+
+#header > button {
+    height: 50%;
+}
+
+#footer {
+    height: 10%;
+    background-color: brown;
+    color: aliceblue;
+}

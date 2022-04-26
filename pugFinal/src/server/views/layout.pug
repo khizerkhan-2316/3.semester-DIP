@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title My awesome site
+        block scripts
+            script(src='js/layout.js' defer)
+        block styles
+            link(rel='stylesheet' href='css/layout.css')
+
+    body
+        div#layout
+            include includes/header.pug
+            div#main
+                block content
+                    h1 layout
+            include includes/footer.pug

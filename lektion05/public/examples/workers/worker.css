@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+label, button {
+    margin: 10px;
+    font-size: 50px;
+}
+input {
+
+    line-height: 50px;
+    font-size: 40px;
+}
+
+
+#color {
+    width: 100px;
+    height: 100px;
+}
+
